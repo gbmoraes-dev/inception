@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentação
+*.md
+README*
+LICENSE
+CHANGELOG*
+docs/
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+*-old
+*.orig
+
+# Diretórios de teste
+test/
+tests/
+__tests__/
+*.test.sh
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Arquivos de desenvolvimento
+.vscode/
+.idea/
+*.code-workspace
+
+# Dados sensíveis
+*.pem
+*.key
+*.crt
+secrets/
+.env*
+
+# Cache e builds
+__pycache__/
+*.pyc
+node_modules/
+.cache/
