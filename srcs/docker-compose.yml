@@ -17,13 +17,13 @@ services:
       test:
         [
           "CMD",
-          "mysqladmin",
+          "mariadb-admin",
           "ping",
           "-h",
           "localhost",
           "-u",
-          "root",
-          "-p${MYSQL_ROOT_PASSWORD}",
+          "healthchecker",
+          "-phc_password",
         ]
       interval: 10s
       timeout: 5s
